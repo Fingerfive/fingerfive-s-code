@@ -1,0 +1,43 @@
+body {
+    background-color: gray;
+    font-family: serif;
+    cursor: wait;
+}
+
+h3 {
+    color: red;
+}
+
+table {
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*p {
+    width: 400px;
+    height: 200px;
+}*/
+
+p {
+    min-width: 100px;
+    max-width: inherit;
+}
+
+img {
+    /*border-width: 3px;*/
+    border-color: red;
+    border: 10px 5px 15px 20px;
+    margin: 20px 15px 20px 15px;
+    padding: 20px;
+}
+
+.RedColor {
+    color: red;
+    border-color: blue;
+}
+
+.BigFont {
+    font-family: monospace;
+    font-size: 20px;
+}
